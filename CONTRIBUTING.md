@@ -50,11 +50,12 @@ Before [creating a pull request](https://help.github.com/articles/creating-a-pul
    ```bash
    # Fetch upstream changes
    git fetch upstream
-   # Make sure you are on your 'Jarvis' branch
-   git checkout Jarvis
+   # Make sure you are on your 'master' branch
+   git checkout master
    # Merge upstream changes
-   git merge upstream/Jarvis
+   git merge upstream/master
    ```
+   'master' is only used as example here. Please replace it with the correct branch you want to submit your add-on towards.
 
 - Create a new branch to contain your new add-on or subsequent update:
 
@@ -89,3 +90,6 @@ Before [creating a pull request](https://help.github.com/articles/creating-a-pul
    ```bash
    git push --force origin <add-on-branch-name>
    ```
+
+These examples use git command line. There are also git tools available that have a graphic interface and the steps above should be done in a similar way. Please consult the manual of those programs.
+   

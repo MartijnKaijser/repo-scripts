@@ -4,7 +4,7 @@
 
 ## Contents
 
-This branch contains a certain catogory of add-ons from which our back-end script creates .zip files which are made available to each Kodi client.
+This branch contains a certain category of add-ons from which our back-end script creates .zip files which are made available to each Kodi client.
 * Background services
 * Screensavers
 * Scripts
